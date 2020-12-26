@@ -1,7 +1,7 @@
 <?php
 /**
  * Starter theme functions and definitions
- * This line is added to test sublime merge
+ * 
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package Starter_theme
