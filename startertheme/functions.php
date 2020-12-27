@@ -1,7 +1,7 @@
 <?php
 /**
  * Starter theme functions and definitions
- * 
+ *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package Starter_theme
@@ -140,6 +140,9 @@ add_action( 'widgets_init', 'starter_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function starter_theme_scripts() {
+	// Enqueue google fonts
+	wp_enqueue_style('starte_theme-fonts', '<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+');
 	wp_enqueue_style( 'starter-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'starter-theme-style', 'rtl', 'replace' );
 
