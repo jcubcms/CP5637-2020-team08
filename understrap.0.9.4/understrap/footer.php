@@ -26,6 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<footer class="site-footer" id="colophon">
 
 					<div class="site-info">
+						<?php echo ('2020'); ?>
 
 						<?php understrap_site_info(); ?>
 
@@ -48,4 +49,3 @@ $container = get_theme_mod( 'understrap_container_type' );
 </body>
 
 </html>
-

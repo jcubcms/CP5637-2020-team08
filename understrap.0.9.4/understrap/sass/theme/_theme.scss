@@ -1,1 +1,29 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+#wrapper-navbar {
+  .top-header-holder {
+    height: 150px;
+    background: #aaa;
+  }
+  #main-nav {
+    border-top: 1px solid rgba(#5da0aa, 0.5);
+    border-bottom: 1px solid rgba(#5DA0AA, 0.5);
+    ul {
+      li {
+        a{
+          font-weight: 500;
+          font-size: 26px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+  }
+}
+
+.home-banner{
+    height:1080px;
+    background:#ccc;
+    background-image: url(../img/home-banner.jpg);
+    background-size: cover;
+}
