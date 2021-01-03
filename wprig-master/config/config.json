@@ -1,0 +1,15 @@
+{
+  "theme": {
+    "slug": "wp-rig",
+    "name": "WP Rig",
+    "author": "Siddhesh Lendhe"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "http://localhost/u3a/",
+      "bypassPort": "8181",
+      "https": true
+    }
+  }
+}
