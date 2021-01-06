@@ -15,6 +15,13 @@
 
 Here is a short description of the theme that might appear in the customizer.
 
+## Contributors
+Manpreet Kaur
+Nikunj Bhatt 
+Prachi Kamble
+Sakina Ahmed
+Siddhesh Lendhe
+
 ## Description
 
 == **The theme includes following theme framework ** ==
@@ -40,6 +47,19 @@ functions.php This file helps in inserting functionalites like widgets, excerpts
 Is it for assignment? 
 
 YES
+
+
+== **Installation steps:** ==
+
+1. Create account on github
+2. Download zip file for the code which we have uploaded
+3. Install wordpress on local server
+4. Extract zip file for the theme
+5. Paste the folder in xampp/htdocs/"site name"/wp-contents/theme/
+6. Go to wp admin and activate new theme
+7. Load the theme folder in your favourite code editor
+8. Start working oon your theme!!!!
+
 
 == **Upgrade Notice** ==
 
